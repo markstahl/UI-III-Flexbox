@@ -138,11 +138,11 @@ h1 {
 	transform: scale(1, 0.9);
 }
 
-button {
+.button {
 	border: 1.5px;
 	border-style: solid;
 	border-color: black;
-	width: 160px;
+	width: 118px;
 	padding: 5px 15px;
 	font-size: 1.1em;
 	background-color: white;
@@ -302,3 +302,54 @@ ul {
 	  margin-bottom: 2%;
 	  font-size: 19px;
   }
+
+  .digi1 {
+	display: inline-flex;
+	flex-direction: row;
+	height: 280px;
+	width: 500px;
+	margin-top: 3%;
+	margin: auto;
+	columns: 2;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	margin-left: 12%;
+	align-content: flex-start;
+	border: 2px solid black;
+	padding: 2em;
+	background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 16%, rgba(221,221,221,1) 95%);
+}
+
+.digi2 {
+	display: inline-flex;
+	flex-direction: row;
+	height: 280px;
+	width: 500px;
+	padding: 2%;
+	margin: auto;
+	margin-top: 3%; 
+	margin-bottom: 3%;
+	columns: 2;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	margin-left: 12%;
+	align-content: flex-start;
+	border: 2px solid black;
+	padding: 2em;
+	background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 16%, rgba(221,221,221,1) 95%);
+}
+
+.flex-container-v {
+	display: inline-flex;
+	flex-flow: row wrap;
+	border : 2px solid black;
+	padding: 2em;
+	background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 16%, rgba(221,221,221,1) 95%);
+}
+
+.work-photo {
+	border: 1px solid black;
+}
